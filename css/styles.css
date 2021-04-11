@@ -1,0 +1,122 @@
+/* Селекторы атрибутов */
+/* *[class] {
+  color: blue;
+}
+
+div[class='parent'] {
+  background-color: aquamarine;
+}
+
+div[class|='parent'] {
+  border: 1px dotted green;
+} */
+
+/* Псевдоклассы */
+/* :root {
+  --card-width: 300px;
+  color: rebeccapurple;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul.navList {
+  padding: 10px;
+  list-style: none;
+  font-size: 0;
+}
+
+li.navListItem {
+  display: inline-block;
+}
+
+.navListItem > a {
+  display: inline-block;
+  min-width: 100px;
+  width: 100%;
+  max-width: 250px;
+  padding: 20px 40px;
+
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  text-align: center;
+
+  border: 1px solid white;
+  background-color: darkolivegreen;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+a:hover {
+  cursor: pointer;
+  background-color: darkgreen;
+}
+
+a:link {
+}
+
+a:visited {
+
+}
+
+.activeElement {
+  width: 200px;
+  height: 100px;
+  background-color: chocolate;
+}
+
+.activeElement:active {
+  background-color: red;
+} */
+
+/* Псевдоклассы дочерних элементов */
+
+/* li:first-child {
+  color: crimson;
+}
+
+li:last-child {
+  color: green;
+}
+
+li:nth-child(4n + 7) {
+  background-color: coral;
+}
+
+.parent > span:last-of-type {
+  color: chartreuse;
+}
+
+.parent > div:last-of-type {
+  color: red;
+}
+
+.parent > span:first-of-type {
+  color: yellow;
+}
+
+.parent > div:first-of-type {
+  color: yellowgreen;
+}
+.parent > span:nth-of-type(odd) {
+  background-color: yellow;
+} */
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid black;
+}
